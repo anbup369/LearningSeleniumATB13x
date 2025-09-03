@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestSelenium19_Mini_Project2_TagName extends CommonToAll {
-    @Owner("Pramod")
+    @Owner("")
     @Severity(SeverityLevel.BLOCKER)
     @TmsLink("https://bugz.atlassian.net/browse/BUG-17")
     @Description("Verify that the error message comes with invalid email on signup page.")
@@ -39,6 +39,7 @@ public class TestSelenium19_Mini_Project2_TagName extends CommonToAll {
 
         try {
             Thread.sleep(3000);
+
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
