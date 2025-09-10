@@ -1,4 +1,5 @@
 package com.test.selenium.ex03_Selenium_Locators;
+// locators using id, classname and name.
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
@@ -45,7 +46,7 @@ public class TestSelenium17_Project_Locators_Selenium_ID_CLASSNAME_NAME {
         // data-gtm-form-interact-field-id="0"
         // > close Tag
 
-        WebElement  email_input_box = driver.findElement(By.id("login-username"));
+        WebElement email_input_box = driver.findElement(By.id("login-username"));
         email_input_box.sendKeys("admin@admin.com");
 
         // Step 2 - Find the Password  and enter the 1234.
@@ -91,8 +92,7 @@ public class TestSelenium17_Project_Locators_Selenium_ID_CLASSNAME_NAME {
         System.out.println(error_message.getText());
 
         // Step 6, we have added the TestNG assertion to verify.
-        Assert.assertEquals(error_message.getText(),"Your email, password, IP address or location did not match");
-
+        Assert.assertEquals(error_message.getText(), "Your email, password, IP address or location did not match");
 
 
         try {

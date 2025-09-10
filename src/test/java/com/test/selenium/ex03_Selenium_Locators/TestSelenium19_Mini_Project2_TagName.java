@@ -1,4 +1,5 @@
 package com.test.selenium.ex03_Selenium_Locators;
+// locators using tagname, name, classname, id, partiallinktext
 
 import com.test.selenium.utils.CommonToAll;
 import io.qameta.allure.*;

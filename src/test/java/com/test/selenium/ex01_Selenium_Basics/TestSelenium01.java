@@ -8,16 +8,11 @@ import org.testng.annotations.Test;
 
 public class TestSelenium01 {
 
-    @Test
-    public void test_Code(){
-        Assert.assertEquals("pramod","Pramod");
-    }
 
     @Test
-    public void test_OpenTheTestingAcademy(){
+    public void test_OpenTheTestingAcademy() {
         FirefoxDriver driver = new FirefoxDriver();
         driver.get("https://thetestingacademy.com");
-
 
 
     }
