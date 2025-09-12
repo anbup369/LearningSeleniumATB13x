@@ -36,13 +36,15 @@ public class Task3rd_Sept_awesome_qa_practice {
         //To select Automation Tools: Webdriver
         driver.findElement(By.xpath("//input[@id=\"tool-2\"]")).click();
 
-        //to select Continent :Europe
+        //to select Continent :Europe  //    //Can use Select class to automate classic dropdown with tag <select>
         driver.findElement(By.xpath("//select[@id=\"continents\"]")).click();
         driver.findElement(By.xpath("//select[@id=\"continents\"]")).sendKeys(Keys.ARROW_DOWN);
         driver.findElement(By.xpath("//select[@id=\"continents\"]")).click();
 
+        //Can use Select class to automate classic dropdown with tag <select>
 
-        //To select selenium_commands: wait commands
+
+        //To select selenium_commands: wait commands //    //Can use Select class to automate classic dropdown with tag <select>
         driver.findElement(By.xpath("//select[@id=\"selenium_commands\"]")).click();
         driver.findElement(By.xpath("//select[@id=\"selenium_commands\"]")).sendKeys(Keys.ARROW_DOWN);
         driver.findElement(By.xpath("//select[@id=\"selenium_commands\"]")).sendKeys(Keys.ARROW_DOWN);
