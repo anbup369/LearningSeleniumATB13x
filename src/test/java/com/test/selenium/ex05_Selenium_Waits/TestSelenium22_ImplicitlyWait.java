@@ -3,6 +3,7 @@ package com.test.selenium.ex05_Selenium_Waits;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -41,7 +42,7 @@ This behavior makes implicit wait useful for handling elements that may appear
 
 public class TestSelenium22_ImplicitlyWait {
 
-    private ChromeDriver driver;
+    private WebDriver driver;
 
     @BeforeMethod
     public void setup() {

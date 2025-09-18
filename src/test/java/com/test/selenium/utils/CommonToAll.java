@@ -52,7 +52,7 @@ public class CommonToAll {
         return driver;
     }
 
-    // 🔹 Common Actions
+    //  Common Actions
     public void openBrowser(WebDriver driver, String url) {
         driver.get(url);
         driver.manage().window().maximize();

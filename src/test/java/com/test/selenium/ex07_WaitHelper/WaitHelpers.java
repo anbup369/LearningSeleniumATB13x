@@ -67,7 +67,9 @@ public class WaitHelpers {
     // Wait for visibility using XPath
     public static void waitForVisibility(WebDriver driver, int timeInSeconds, String xpath) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeInSeconds));
+
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+
     }
 
     // Fluent wait for visibility using XPath
